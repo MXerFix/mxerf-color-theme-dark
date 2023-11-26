@@ -1,0 +1,365 @@
+{
+	"name": "Mxerf Dark Theme",
+	"colors": {
+		"editor.background": "#1a1a1a",
+		"editor.foreground": "#eee",
+		"activityBarBadge.background": "#FFC926",
+		"sideBarTitle.foreground": "#FFC926",
+		"terminal.foreground": "#FFC926",
+		"sideBar.background": "#212121",
+		"tab.hoverBackground": "#212121",
+		"statusBar.background": "#212121",
+		"statusBar.debuggingBackground": "#FFC926",
+		"activityBar.background": "#1a1a1a",
+		"titleBar.activeBackground": "#191919"
+	},
+	"tokenColors": [
+		{
+			"name": "Base",
+			"scope": [
+				"source.ts",
+				"source.tsx",
+				"source.js",
+				"source.jsx",
+				"meta.jsx.children",
+				"text.html.derivative",
+			],
+			"settings": {
+				"foreground": "#d0d0d0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Comment double slash",
+			"scope": [
+				"comment.line.double-slash.tsx",
+				"comment.line.double-slash.ts",
+				"comment.line.double-slash.js",
+				"comment.line.double-slash.jsx",
+				"constant.language.null.tsx",
+				"constant.language.null.ts",
+				"constant.language.null.js",
+				"constant.language.null.jsx",
+				"keyword.operator.logical.tsx",
+				"keyword.operator.logical.ts",
+				"keyword.operator.logical.js",
+				"keyword.operator.logical.jsx",
+				"punctuation.definition.template-expression.begin.tsx",
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.begin.jsx",
+				"punctuation.definition.template-expression.begin.js",
+				"meta.template.expression.tsx",
+				"meta.template.expression.ts",
+				"meta.template.expression.jsx",
+				"meta.template.expression.js",
+				"punctuation.accessor.tsx",
+				"punctuation.accessor.ts",
+				"punctuation.accessor.jsx",
+				"punctuation.accessor.js",
+				"punctuation.separator.parameter.tsx",
+				"punctuation.separator.parameter.ts",
+				"punctuation.separator.parameter.jsx",
+				"punctuation.separator.parameter.js",
+				"keyword.operator.arithmetic.tsx",
+				"keyword.operator.arithmetic.ts",
+				"keyword.operator.arithmetic.jsx",
+				"keyword.operator.arithmetic.js",
+				"punctuation.separator.comma.tsx",
+				"punctuation.separator.comma.ts",
+				"punctuation.separator.comma.jsx",
+				"punctuation.separator.comma.js",
+				"punctuation.terminator.statement.tsx",
+				"punctuation.terminator.statement.ts",
+				"punctuation.terminator.statement.jsx",
+				"punctuation.terminator.statement.js",
+				"punctuation.accessor.optional.tsx",
+				"punctuation.accessor.optional.ts",
+				"punctuation.accessor.optional.jsx",
+				"punctuation.accessor.optional.js",
+				"punctuation.definition.tag",
+				"comment.block",
+				"keyword.operator.ternary",
+				"keyword.operator.type.annotation",
+				"punctuation.separator.key-value"
+			],
+			"settings": {
+				"foreground": "#a3a3a3"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"storage.type.tsx",
+				"storage.type.jsx",
+				"storage.type.ts",
+				"storage.type.js",
+				"meta.object-literal.key.tsx",
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.jsx",
+				// "meta.var.expr.tsx",
+				// "meta.var.expr.ts",
+				// "meta.var.expr.js",
+				// "meta.var.expr.jsx",
+				"storage.type.function.arrow.tsx",
+				"storage.type.function.arrow.ts",
+				"storage.type.function.arrow.jsx",
+				"storage.type.function.arrow.js",
+				"support.class.component",
+				"comment.line.number-sign.ini",
+				"support.type.object.module",
+			],
+			"settings": {
+				"foreground": "#ffe779",
+			}
+		},
+		{
+			"name": "Const variable",
+			"scope": [
+				"variable.other.constant.tsx",
+				"variable.other.constant.ts",
+				"variable.other.constant.jsx",
+				"variable.other.constant.js",
+				"variable.other.constant.object.tsx",
+				"variable.other.constant.object.ts",
+				"variable.other.constant.object.jsx",
+				"variable.other.constant.object.js",
+				"keyword.control.as",
+				"constant.language.import-export-all",
+				"keyword.control.default",
+				"entity.name.type.class",
+			],
+			"settings": {
+				"foreground": "#ffc800"
+			}
+		},
+		{
+			"name": "Rewrite variable",
+			"scope": [
+				"variable.other.readwrite.tsx",
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.jsx",
+				"variable.other.readwrite.js",
+				"variable.other.object.property.tsx",
+				"variable.other.object.property.jsx",
+				"variable.other.object.property.ts",
+				"variable.other.object.property.js",
+				"variable.parameter.tsx",
+				"variable.parameter.jsx",
+				"variable.parameter.ts",
+				"variable.parameter.js",
+				"entity.name.tag",
+				"variable.other.readwrite.alias",
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#ff6464"
+			}
+		},
+		{
+			"name": "Import keyword",
+			"scope": [
+				"keyword.control.import.tsx",
+				"keyword.control.import.ts",
+				"keyword.control.import.jsx",
+				"keyword.control.import.js",
+				"keyword.operator.type.tsx",
+				"keyword.operator.type.ts",
+				"keyword.operator.comparison.tsx",
+				"keyword.operator.comparison.ts",
+				"keyword.operator.comparison.jsx",
+				"keyword.operator.comparison.js",
+				"keyword.operator.spread.tsx",
+				"keyword.operator.spread.ts",
+				"keyword.operator.spread.jsx",
+				"keyword.operator.spread.js",
+				"keyword.control.switch",
+			],
+			"settings": {
+				"foreground": "#a96cbb"
+			}
+		},
+		{
+			"name": "Const variable",
+			"scope": [
+				"keyword.control.export.tsx",
+				"keyword.control.export.ts",
+				"keyword.control.export.jsx",
+				"keyword.control.export.js",
+				"constant.language.boolean.false.tsx",
+				"constant.language.boolean.false.ts",
+				"constant.language.boolean.false.jsx",
+				"constant.language.boolean.false.js",
+				"constant.language.boolean.true.tsx",
+				"constant.language.boolean.true.ts",
+				"constant.language.boolean.true.jsx",
+				"constant.language.boolean.true.js",
+				"variable.other.constant.property.tsx",
+				"variable.other.constant.property.ts",
+				"variable.other.constant.property.jsx",
+				"variable.other.constant.property.js",
+				"storage.type.class",
+			],
+			"settings": {
+				"foreground": "#ff7300"
+			}
+		},
+		{
+			"name": "Number value, Func declaration, trycatch",
+			"scope": [
+				"constant.numeric.decimal.tsx",
+				"constant.numeric.decimal.ts",
+				"constant.numeric.decimal.js",
+				"constant.numeric.decimal.jsx",
+				"storage.type.function.tsx",
+				"storage.type.function.ts",
+				"storage.type.function.js",
+				"storage.type.function.jsx",
+				"keyword.control.trycatch.tsx",
+				"keyword.control.trycatch.ts",
+				"keyword.control.trycatch.jsx",
+				"keyword.control.trycatch.js",
+				"meta.object-literal.key.tsx",
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.jsx",
+				"keyword.control.conditional.tsx",
+				"keyword.control.conditional.ts",
+				"keyword.control.conditional.jsx",
+				"keyword.control.conditional.js",
+				"variable.other.constant.object.property",
+				"keyword.control.from"
+			],
+			"settings": {
+				"foreground": "#ffa967"
+			}
+		},
+		{
+			"name": "Operator assignment",
+			"scope": [
+				"keyword.operator.assignment.tsx",
+				"keyword.operator.assignment.ts",
+				"keyword.operator.assignment.jsx",
+				"keyword.operator.assignment.js",
+				"keyword.control.flow.tsx",
+				"keyword.control.flow.ts",
+				"keyword.control.flow.jsx",
+				"keyword.control.flow.js",
+				"support.variable.property.tsx",
+				"support.variable.property.ts",
+				"support.variable.property.jsx",
+				"support.variable.property.js",
+				"meta.type.annotation.tsx",
+				"meta.type.annotation.ts",
+				"keyword.operator.quantifier.regexp",
+				"keyword.control.loop",
+				"keyword.operator.new",
+				"source.ini"
+			],
+			"settings": {
+				"foreground": "#d58cff"
+			}
+		},
+		{
+			"name": "Entity Function Name",
+			"scope": [
+				"entity.name.function.tsx",
+				"entity.name.function.ts",
+				"entity.name.function.jsx",
+				"entity.name.function.js",
+			],
+			"settings": {
+				"foreground": "#2ccaff"
+			}
+		},
+		{
+			"name": "HTML attribute name",
+			"scope": [
+				"entity.other.attribute-name",
+			],
+			"settings": {
+				"foreground": "#5de7fc",
+			}
+		},
+		// {
+		// 	"name": "Type meta",
+		// 	"scope": [
+		// 		"meta.type.annotation.tsx",
+		// 		"meta.type.annotation.ts",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#ff7300"
+		// 	}
+		// },
+		{
+			"name": "Async modifier",
+			"scope": [
+				"storage.modifier.async.tsx",
+				"storage.modifier.async.ts",
+				"storage.modifier.async.jsx",
+				"storage.modifier.async.js",
+				"variable.other.property.tsx",
+				"variable.other.property.ts",
+				"variable.other.property.jsx",
+				"variable.other.property.js",
+			],
+			"settings": {
+				"foreground": "#ffa357"
+			}
+		},
+		{
+			"name": "Other object",
+			"scope": [
+				"variable.other.object.tsx",
+				"variable.other.object.ts",
+				"variable.other.object.jsx",
+				"variable.other.object.js",
+				"support.type.property-name.json.comments",
+				"string.json.comments",
+				"meta.structure.dictionary.json"
+			],
+			"settings": {
+				"foreground": "#ffd22e"
+			}
+		},
+		{
+			"name": "Quoted string",
+			"scope": [
+				"punctuation.definition.string.begin.tsx",
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.begin.jsx",
+				"punctuation.definition.string.begin.js",
+				"string.quoted.single.tsx",
+				"string.quoted.single.ts",
+				"string.quoted.single.jsx",
+				"string.quoted.single.js",
+				"punctuation.definition.string.end.tsx",
+				"punctuation.definition.string.end.ts",
+				"punctuation.definition.string.end.jsx",
+				"punctuation.definition.string.end.js",
+				"string.quoted.double.tsx",
+				"string.quoted.double.ts",
+				"string.quoted.double.jsx",
+				"string.quoted.double.js",
+				"string.template.tsx",
+				"string.template.ts",
+				"string.template.js",
+				"string.template.jsx",
+				"string.regexp.tsx",
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#29c6a4"
+			}
+		},
+		{
+			"name": "Regexp",
+			"scope": [
+				"constant.other.character-class.regexp"
+			],
+			"settings": {
+				"foreground": "#15894b",
+			}
+		},
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "mxerf-color-theme-dark",
+  "displayName": "mxerf_color_theme_dark",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mxerf Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mxerf Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
